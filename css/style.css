@@ -1,0 +1,72 @@
+/*css comments look like this*/
+
+body{
+	background-image: url(../images/techcity.jpg); /*url is universal resource locator*/
+	background-size: 100% auto; 
+	background-attachment: fixed;
+	font-family: 'Roboto', arial, sans-serif
+
+}
+
+.main{
+	background-color:rgba(255,255,255,0.8); /*redgreenbluealpha - fading percentage*/
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px
+
+}
+h1{
+	font-family: 'Roboto', sans-serif; 
+	text-align: center;
+	border-bottom: 2px solid white;
+	max-width: 50%
+	margin:0 auto;
+}
+h2 {
+
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-align: center;
+}
+h3{
+	color:black;
+cursor: pointer;
+margin-bottom: 0
+
+}
+
+h3:hover{
+	color:lightblue;
+
+}
+
+img{
+	width: 200px;
+	margin: 0 auto; /*these two lines center an image*/
+	display: block;
+	border: 20px solid white; /*or dotted*/
+	border-radius: 20% 
+
+}
+
+
+p, /*paragraph*/
+ol, /*organised list*/
+ul {line-height: 1.6;
+	list-style:none;
+padding-left: 0;
+
+}
+/*corresponds to links on html*/
+a{ font-weight: bold;
+	color: #6FA1D6;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #aa000;
+	text-decoration: underline;
+}
